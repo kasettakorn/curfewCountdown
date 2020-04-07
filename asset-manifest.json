@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/curfewCountdown/static/css/main.4bd8b62a.chunk.css",
+    "main.js": "/curfewCountdown/static/js/main.f887b7a0.chunk.js",
+    "main.js.map": "/curfewCountdown/static/js/main.f887b7a0.chunk.js.map",
+    "runtime-main.js": "/curfewCountdown/static/js/runtime-main.db8ef695.js",
+    "runtime-main.js.map": "/curfewCountdown/static/js/runtime-main.db8ef695.js.map",
+    "static/js/2.03e68400.chunk.js": "/curfewCountdown/static/js/2.03e68400.chunk.js",
+    "static/js/2.03e68400.chunk.js.map": "/curfewCountdown/static/js/2.03e68400.chunk.js.map",
+    "index.html": "/curfewCountdown/index.html",
+    "precache-manifest.f02ece0b82bc0faacf2954d5be88cdeb.js": "/curfewCountdown/precache-manifest.f02ece0b82bc0faacf2954d5be88cdeb.js",
+    "service-worker.js": "/curfewCountdown/service-worker.js",
+    "static/css/main.4bd8b62a.chunk.css.map": "/curfewCountdown/static/css/main.4bd8b62a.chunk.css.map",
+    "static/js/2.03e68400.chunk.js.LICENSE.txt": "/curfewCountdown/static/js/2.03e68400.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/curfewCountdown/static/media/easter-4978337_1920.702c57c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db8ef695.js",
+    "static/js/2.03e68400.chunk.js",
+    "static/css/main.4bd8b62a.chunk.css",
+    "static/js/main.f887b7a0.chunk.js"
+  ]
+}
