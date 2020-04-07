@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-image: url("../images/easter-4978337_1920.jpg");
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 1em;
+  margin-top: 150px;
+  
+}
+.heading {
+  font-size: 3em;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+.timer {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+.timer.timer_highlight {
+  background: #3b5171;
+  color: white;
+  padding: 0.5em 1em;
+  
+}
+.countdownCurfew {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  background-color: white;
+  padding: 1.5em 3em;
+  border-radius: 15px;
+  
+}
+
+.label {
+  font-size: 23px;
+}
+.imgStayhome {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -10px;
+  width: 20%;
+  border-radius: 10px;
+}
+@media (max-width: 830px) {
+  .imgStayhome {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .imgStayhome {
+    position: relative;
+    width: 100%;
+  }
+  .countdownCurfew {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  .heading {
+    font-size: 1.1em;
+  }
+}
